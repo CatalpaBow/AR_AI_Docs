@@ -8,7 +8,7 @@ AIAgentとは兵士や分隊が自律的に状況を判断し、行動できる�
 AIAgentはBehaviorTreeによって動作します。BehaviorTreeとはルーチンを木構造で表現したものです。  
 AIAgentが標準で実行するBehaviorTreeでは、行動の決定と実行が以下の図のノードで実装されています。  
 
-![Soldier.bt](../img/Soldier.bt.svg)  
+![Soldier.bt](../src/img/Soldier.bt.svg)  
 図1:兵士のAIAgentが実行するSoldier.btを簡素化した図  
 
 最初にDecideBehaviorを呼び出し、実行すべきBehaviorTree(idle.btやattack.bt等)のパスを出力する。  

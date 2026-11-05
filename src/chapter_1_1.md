@@ -6,9 +6,9 @@
 
 ## Squat.btの実装
 立ちとしゃがみを一定周期で実行することでスクワットっぽい動作をさせてます  
-![Squat.bt](../img/Squat.bt.png)  
+![Squat.bt](../src/img/Squat.bt.png)  
 IdleタスクのPeriodは0.25秒に設定しています  
-![NodeParameter](../img/Idle_NodeParameter.png)  
+![NodeParameter](../src/img/Idle_NodeParameter.png)  
 
 ## Squat.btの動作確認
 Squat.btの動作確認の為、SquatManにSquat.btを実行させましょう   
@@ -53,7 +53,7 @@ class TUT_AISquatBehavior:SCR_AIBehaviorBase{
 ```
 
 ## Soldier.btの概要
-![Soldier.bt](../img/Soldier.bt.svg)  
+![Soldier.bt](../src/img/Soldier.bt.svg)  
 図1:兵士のAIAgentが実行するSoldier.btを簡素化した図  
 
 最初にDecideBehaviorを呼び出し、実行すべきBehaviorTree(idle.btやattack.bt等)のパスを出力する。  

@@ -16,7 +16,7 @@ SquatManのChimeraAICntroComponeetのパラメーターを以下のように設�
 - OvrrideAIBehaviorData  
 	Squat.btに設定
 - EnableAI  
-	オン  
+	オン   
 
 SquatManがひたすらしゃがみと立ちを繰り返していれば、正常に動作しています  
 
